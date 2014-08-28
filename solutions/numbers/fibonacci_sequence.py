@@ -2,10 +2,10 @@
 """
 ref: http://www.mathsisfun.com/numbers/fibonacci-sequence.html
 """
-MAX = 1000
+MAX = 50
 sequence = [0, 1]
 
-while sequence[-1] < MAX:
+while len(sequence) <= MAX:
     sequence.append(sequence[-1] + sequence[-2])
 
 print sequence

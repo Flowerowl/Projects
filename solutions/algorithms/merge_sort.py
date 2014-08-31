@@ -1,3 +1,11 @@
+"""
+time:
+    worst:O(nlogn)
+    best:O(n)
+    avg:O(nlogn)
+space:
+    O(n)
+"""
 #encoding:utf-8
 origin_list = [6,4,8,2,1,0,8,8,4,1,2,0,8,9,11,2,1]
 

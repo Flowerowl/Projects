@@ -9,6 +9,7 @@
 
 time:
     worst: O(n^2)
+    best: O(nlogn)
     avg: O(nlogn)
 """
 origin_list = [5,3,5,6,8,9,6,5,3,21,45,5,6,5,3]
